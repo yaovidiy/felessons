@@ -101,8 +101,14 @@ body {
 /* sm */
 }
 @media (min-width: 992px) {
-/* md */
+.page-wrapper {
+    margin: 10% auto;
+    max-width: 800px;
+}
 }
 @media (min-width: 1200px) {
-/* lg */
+    .page-wrapper {
+        margin: 0 auto;
+        max-width: 800px;
+    }
 }
